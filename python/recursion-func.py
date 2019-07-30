@@ -25,3 +25,6 @@ def fib(n):
         return fib(n-1) + fib(n-2)
 
 print(fib(7))
+
+for i in range(0, 10):
+    print(fib(i))
